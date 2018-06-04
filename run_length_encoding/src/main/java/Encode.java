@@ -51,6 +51,7 @@ public class Encode {
         System.out.println(decode(example));
         System.out.println(encode(decode(example)));
 
+        
     }
 
 }
