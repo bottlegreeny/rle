@@ -46,10 +46,10 @@ public class Encode {
     }
 
     public static void main(String[] args) {
-        String example = "11d6g7u";
+        String example = "11d6g7d";
 
         System.out.println(decode(example));
-        //System.out.println(encode(decode(example)));
+        System.out.println(encode(decode(example)));
 
 
     }
