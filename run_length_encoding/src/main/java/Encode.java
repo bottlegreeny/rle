@@ -49,9 +49,9 @@ public class Encode {
         String example = "11d6g7u";
 
         System.out.println(decode(example));
-        System.out.println(encode(decode(example)));
+        //System.out.println(encode(decode(example)));
 
-        
+
     }
 
 }
