@@ -23,7 +23,8 @@ public class Encode {
             if (runLength < 10) {
                 dest.append(source.charAt(i)).append(1).append(runLength);
             }
-
+            
+            
         }
 
         return dest.toString();
